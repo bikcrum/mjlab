@@ -8,6 +8,10 @@ Upcoming version (not yet released)
 Added
 ^^^^^
 
+- Added ``FrameTransformer``, a sensor that reports the transform of one or
+  more target frames (body/xbody/site/geom/camera) relative to a source
+  frame, with optional per-frame pose offsets and debug visualization.
+
 Changed
 ^^^^^^^
 

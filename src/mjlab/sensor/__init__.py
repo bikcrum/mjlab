@@ -8,6 +8,16 @@ from mjlab.sensor.contact_sensor import ContactData as ContactData
 from mjlab.sensor.contact_sensor import ContactMatch as ContactMatch
 from mjlab.sensor.contact_sensor import ContactSensor as ContactSensor
 from mjlab.sensor.contact_sensor import ContactSensorCfg as ContactSensorCfg
+from mjlab.sensor.frame_transformer_sensor import FrameCfg as FrameCfg
+from mjlab.sensor.frame_transformer_sensor import FrameObjType as FrameObjType
+from mjlab.sensor.frame_transformer_sensor import FrameTransformer as FrameTransformer
+from mjlab.sensor.frame_transformer_sensor import (
+  FrameTransformerCfg as FrameTransformerCfg,
+)
+from mjlab.sensor.frame_transformer_sensor import (
+  FrameTransformerData as FrameTransformerData,
+)
+from mjlab.sensor.frame_transformer_sensor import OffsetCfg as OffsetCfg
 from mjlab.sensor.raycast_sensor import GridPatternCfg as GridPatternCfg
 from mjlab.sensor.raycast_sensor import (
   PinholeCameraPatternCfg as PinholeCameraPatternCfg,
